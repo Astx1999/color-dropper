@@ -1,25 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {Routes, Route, Link} from "react-router-dom";
+import ColorDrppper from "./components/ColorDropper/ColorDropper";
+import ColorDropperCanvas from "./components/ColorDropperCanvas/ColorDropperCanvas";
+import Header from "./components/Header/Header";
+import "./_variables.scss"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div>
+        {/* <header>
+          <Link to={"/pureCanvas"} style={{marginRight: '30px'}}>Pure Canvas (as required)</Link>
+          <Link to={"/eyeDropperApi"}>Eye Dropper Api (additional)</Link>
+        </header> */}
+        <Header/>
+        <Routes>
+          <Route path="/pureCanvas" element={<ColorDropperCanvas/>}/>
+          <Route path="/eyeDropperApi" element={<ColorDrppper/>}/>
+        </Routes>
+      </div>
+
   );
 }
 

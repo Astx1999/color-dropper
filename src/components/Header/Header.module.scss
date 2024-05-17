@@ -1,0 +1,29 @@
+.root{
+  display: flex;
+  justify-content: center;
+  height: var(--header-height);
+}
+.btn{
+  height: 40px;
+  background: #c20bc1;
+  color: white;
+  display: inline-flex;
+  align-items: center;justify-content: center;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 0.8em 0.8em;
+  border-radius: 0.2rem;
+}
+.active{
+  height: 40px;
+  background: #920792;
+  color: white;
+  display: inline-flex;
+  align-items: center;justify-content: center;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 0.8em 0.8em;
+  border-radius: 0.2rem;
+}
