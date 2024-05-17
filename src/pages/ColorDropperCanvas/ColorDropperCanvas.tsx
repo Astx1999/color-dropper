@@ -1,5 +1,5 @@
 import React, {useEffect, useRef, useState} from 'react';
-import CustomFileInput from "../CustomFileInput/CustomFileInput";
+import CustomFileInput from "../../components/CustomFileInput/CustomFileInput";
 import classNames from "classnames";
 import styles from './ColorDropperCanvas.module.scss'
 import {handleLightColor} from "../../utils/handleLightColor";

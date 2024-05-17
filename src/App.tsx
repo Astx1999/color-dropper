@@ -1,7 +1,7 @@
 import React from 'react';
 import {Routes, Route, Link} from "react-router-dom";
-import ColorDrppper from "./components/ColorDropper/ColorDropper";
-import ColorDropperCanvas from "./components/ColorDropperCanvas/ColorDropperCanvas";
+import ColorDrppper from "./pages/ColorDropper/ColorDropper";
+import ColorDropperCanvas from "./pages/ColorDropperCanvas/ColorDropperCanvas";
 import Header from "./components/Header/Header";
 import "./_variables.scss"
 

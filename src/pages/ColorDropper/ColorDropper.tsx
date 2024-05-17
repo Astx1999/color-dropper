@@ -1,9 +1,9 @@
 import {useState, useEffect, useRef} from "react";
-import CustomFileInput from "../CustomFileInput/CustomFileInput";
+import CustomFileInput from "../../components/CustomFileInput/CustomFileInput";
 import {handleLightColor} from "../../utils/handleLightColor";
 
 import styles from "./ColorDropper.module.scss";
-import CustomButton from "../CustomButton/CustomButton";
+import CustomButton from "../../components/CustomButton/CustomButton";
 
 
 const ColorDrppper = () => {
